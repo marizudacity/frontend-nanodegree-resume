@@ -1,0 +1,31 @@
+var work = {
+  "jobs": [{
+     "employer": "Medallia",
+     "title": "Senior Product Designer",
+     "location": "Palo Alto CA",
+     "dates": "2014 - present",
+     "description": "At Medallia we are creating the new wave of customer engagement solutions."
+  },
+  {
+      "employer": "eGain",
+      "title": "Senior UX Designer",
+      "location": "Sunnyvale CA",
+      "dates": "2011 - 2014",
+      "description": "At eGain I worked in a cross-functional team developing prototypes and mockups for different software solutions."
+  },
+  {
+      "employer": "xchema",
+      "title": "Co-founder and Project Manager",
+      "location": "Recife PE",
+      "dates": "2006 - 2010",
+      "description": "During my time at xchema I helped building the company from the ground up and managed the engineering team."
+  },
+  {
+    "employer": "Lightstar Studios",
+    "title": "In-between and Clean-up artist",
+    "location": "São Paulo SP",
+    "dates": "2004 - 2006",
+    "description": "Worked on the international animated picture film \"Asterix and the Vikings\" and meet the most interesting people that I know."
+  }],
+  "display": ""
+};

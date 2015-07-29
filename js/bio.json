@@ -1,0 +1,15 @@
+var bio = {
+  "name": "Mariz Melo",
+  "role": "Product Designer",
+  "contacts": {
+    "mobile": "650 714-3896",
+    "email": "mm@emoriz.com",
+    "github": "marizmelo",
+    "twitter": "@marizmelo",
+    "location": "San Jose CA"
+  },
+  "welcomeMessage": "Hi my name is Mariz Melo and I design products that people love to use.",
+  "skills": ["Product Design", "Prototypes", "HTML", "CSS", "JavaScript", "PHP", "SQL", "NoSQL"],
+  "biopic": "http://www.emoriz.com",
+  "display": ""
+};

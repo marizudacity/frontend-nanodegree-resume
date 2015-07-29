@@ -1,0 +1,17 @@
+var education = {
+  "schools": [{
+       "name": "Marista",
+       "location": "Recife Brazil",
+       "degree": "Web Design",
+       "majors":["Web Applications"],
+       "dates": 2008,
+       "url": "http://www.faculdademarista.com.br"
+     }],
+  "onlineCourses": [{
+       "title": "Frontend",
+       "school": "UDADICTY Nanodegree",
+       "date": 2015,
+       "url": "http://www.udacity.com"
+    }],
+  "display": ""
+};
