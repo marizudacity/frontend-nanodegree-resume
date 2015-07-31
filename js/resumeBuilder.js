@@ -39,6 +39,11 @@ for(var i = 0; i< projects.projects.length; ++i){
   content += HTMLprojectTitle.replace('%data%', projects.projects[i].title);
   content += HTMLprojectDates.replace('%data%', projects.projects[i].dates);
   content += HTMLprojectDescription.replace('%data%', projects.projects[i].description);
-  // TODO: include images on projects
+  if(projects.projects[i].images.length){
+    for(var j=0; j< projects.projects[i].images.length; ++j){
+      content += HTMLprojectImage.replace('%data%', projects.projects[i].images[j]);
+    }
+  }
+
   $(".project-entry").append(content);
 }

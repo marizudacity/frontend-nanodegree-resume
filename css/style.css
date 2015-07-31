@@ -127,7 +127,6 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: #484848;
 }
@@ -168,6 +167,10 @@ span {
   text-align: center;
 }
 
+#projects img{
+  width: 200px;
+}
+
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
@@ -191,6 +194,9 @@ span {
   }
   .welcome-message {
     display: none;
+  }
+  #projects img{
+    width: 100%;
   }
 }
 

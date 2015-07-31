@@ -3,25 +3,25 @@ var projects = {
       "title": "Medallion",
       "dates": "01-18-2014",
       "description": "Medallion is an smart styleguide made for Medallia and used across our projects.",
-      "images": [""]
+      "images": ["https://raw.githubusercontent.com/marizudacity/fe-project-1/master/img/medallion.png"]
     },
     {
       "title": "NPS by heart",
       "dates": "01-18-2014",
       "description": "Explorations for new reporting chart system.",
-      "images": [""]
+      "images": ["https://raw.githubusercontent.com/marizudacity/fe-project-1/master/img/npsmonth.png"]
     },
     {
       "title": "UIFrames",
       "dates": "01-18-2014",
       "description": "Wireframe kit used by Medallia Design team.",
-      "images": [""]
+      "images": []
     },
     {
       "title": "Personas Illustrations",
       "dates": "01-18-2014",
       "description": "Illustrations used during Medallia anual conference.",
-      "images": [""]
+      "images": ["https://raw.githubusercontent.com/marizudacity/fe-project-1/master/img/medallia_vision_personas.png"]
     }],
   "display": ""
 };
