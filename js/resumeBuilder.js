@@ -39,11 +39,40 @@ for(var i = 0; i< projects.projects.length; ++i){
   content += HTMLprojectTitle.replace('%data%', projects.projects[i].title);
   content += HTMLprojectDates.replace('%data%', projects.projects[i].dates);
   content += HTMLprojectDescription.replace('%data%', projects.projects[i].description);
+  // verify if there are images for the project
   if(projects.projects[i].images.length){
     for(var j=0; j< projects.projects[i].images.length; ++j){
       content += HTMLprojectImage.replace('%data%', projects.projects[i].images[j]);
     }
   }
-
   $(".project-entry").append(content);
+}
+
+//EDUCATION
+$("#education").append(HTMLschoolStart);
+if(education.schools.length){
+  for(var i = 0; i< education.schools.length; ++i){
+    var content = "";
+    content += HTMLschoolName.replace('%data%', education.schools[i].name);
+    content += HTMLschoolDegree.replace('%data%', education.schools[i].degree);
+    content += HTMLschoolDates.replace('%data%', education.schools[i].dates);
+    content += HTMLschoolLocation.replace('%data%', education.schools[i].location);
+    if(education.schools[i].majors.length){
+      for(var j=0; j< education.schools[i].majors.length; ++j){
+        content += HTMLschoolMajor.replace('%data%', education.schools[i].majors[j]);
+      }
+    }
+    $(".education-entry").append(content);
+  }
+}
+if(education.onlineCourses.length){
+  for(var i = 0; i< education.onlineCourses.length; ++i){
+    var content = "";
+    content += HTMLonlineClasses;
+    content += HTMLonlineTitle.replace('%data%', education.onlineCourses[i].title);
+    content += HTMLonlineSchool.replace('%data%', education.onlineCourses[i].school);
+    content += HTMLonlineDates.replace('%data%', education.onlineCourses[i].date);
+    content += HTMLonlineURL.replace('%data%', education.onlineCourses[i].url);
+    $(".education-entry").append(content);
+  }
 }
