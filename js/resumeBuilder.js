@@ -76,3 +76,6 @@ if(education.onlineCourses.length){
     $(".education-entry").append(content);
   }
 }
+
+//GOOGLE Maps with locations
+$("#mapDiv").append(googleMap);
