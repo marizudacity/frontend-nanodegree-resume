@@ -19,3 +19,15 @@ $('#header').append(HTMLwelcomeMsg.replace('%data%', 'Lorem ipsum dolor'));
 $('#header').append(HTMLskillsStart);
 // at a glance list
 $('#header').append('<ul>'+HTMLskills.replace('%data%', 'HTML, JavaScript, CSS, PHP, SQL, NoSQL')+'</ul>');
+
+//WORK EXPERIENCE
+$("#workExperience").append(HTMLworkStart);
+for(var i = 0; i< work.jobs.length; ++i){
+  var content = "";
+  content += HTMLworkEmployer.replace('%data%', work.jobs[i].employer);
+  content += HTMLworkTitle.replace('%data%', work.jobs[i].title);
+  content += HTMLworkDates.replace('%data%', work.jobs[i].dates);
+  content += HTMLworkLocation.replace('%data%', work.jobs[i].location);
+  content += HTMLworkDescription.replace('%data%', work.jobs[i].description);
+  $(".work-entry").append(content);
+}
