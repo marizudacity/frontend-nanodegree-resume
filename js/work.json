@@ -27,5 +27,5 @@ var work = {
     "dates": "2004 - 2006",
     "description": "Worked on the international animated picture film \"Asterix and the Vikings\" and meet the most interesting people that I know."
   }],
-  "display": ""
+  "display": null
 };

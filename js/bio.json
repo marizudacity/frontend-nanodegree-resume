@@ -11,5 +11,5 @@ var bio = {
   "welcomeMessage": "Hi my name is Mariz Melo and I design products that people love to use.",
   "skills": ["Product Design", "Prototypes", "HTML", "CSS", "JavaScript", "PHP", "SQL", "NoSQL"],
   "biopic": "http://www.emoriz.com",
-  "display": ""
+  "display": null
 };

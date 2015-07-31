@@ -23,5 +23,5 @@ var projects = {
       "description": "Illustrations used during Medallia anual conference.",
       "images": ["https://raw.githubusercontent.com/marizudacity/fe-project-1/master/img/medallia_vision_personas.png"]
     }],
-  "display": ""
+  "display": null
 };
