@@ -1,15 +1,11 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
- var data = '%data%';
- // HEADER
-var buildHeader = function (){
-    $('#header').prepend(HTMLheaderName.replace(data, bio.name)+''+HTMLheaderRole.replace(data, 'Web Developer'));
-};
-
+var data = '%data%';
 //BIO
 // go over contact and append to #topContacts and #footerContacts element on page
 bio.display = function (){
+  $('#header').prepend(HTMLheaderName.replace(data, bio.name)+''+HTMLheaderRole.replace(data, 'Web Developer'));
   for(var contact in bio.contacts){
     //using contact generic instead of static list
     $('#topContacts').append(HTMLcontactGeneric.replace(data, bio.contacts[contact]).replace('%contact%', contact));
@@ -98,7 +94,6 @@ var buildMaps = function (){
 };
 
 // BUILDING RESUME
-buildHeader();
 bio.display();
 work.display();
 projects.display();
