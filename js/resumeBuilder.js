@@ -31,3 +31,14 @@ for(var i = 0; i< work.jobs.length; ++i){
   content += HTMLworkDescription.replace('%data%', work.jobs[i].description);
   $(".work-entry").append(content);
 }
+
+//PROJECTS
+$("#projects").append(HTMLprojectStart);
+for(var i = 0; i< projects.projects.length; ++i){
+  var content = "";
+  content += HTMLprojectTitle.replace('%data%', projects.projects[i].title);
+  content += HTMLprojectDates.replace('%data%', projects.projects[i].dates);
+  content += HTMLprojectDescription.replace('%data%', projects.projects[i].description);
+  // TODO: include images on projects
+  $(".project-entry").append(content);
+}
